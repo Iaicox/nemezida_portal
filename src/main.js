@@ -4,12 +4,15 @@ import '@/assets/styles/style.scss'
 import Vue from 'vue'
 import App from './App.vue'
 
+
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import meta from 'vue-meta'
 import eventBusPlagin from './utils/event-bus.plugin'
 
+Vue.use(meta)
 Vue.use({
   install(Vue) {
     Vue.prototype.$eb = eventBusPlagin
