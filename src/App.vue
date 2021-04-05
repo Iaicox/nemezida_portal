@@ -13,7 +13,7 @@ import MainLayout from '@/layouts/MainLayout'
 export default {
   name: 'App',
   metaInfo: {
-    title: 'Olliver-CRM'
+    title: 'Portal'
   },
   components: {
     MainLayout,
